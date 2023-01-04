@@ -5,7 +5,7 @@ const passwordInput = document.querySelector(".password-box input"),
   sliderNumber = document.querySelector(".range-box .slider-number"),
   generateButton = document.querySelector(".generate-button");
 
-var allCharacters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789^$%&:;.,*+-#@<>~";
+var allCharacters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789#@";
 const generatePassword = () => {
   var newPassword = "";
   for (var i = 0; i < rangeInput.value; i++) {
